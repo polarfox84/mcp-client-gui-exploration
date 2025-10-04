@@ -1,0 +1,15 @@
+server/node_modules/
+web/node_modules/
+
+# Ignore environment files (but allow examples)
+.env
+.env.*
+!*.env.example
+server/.env
+server/.env.*
+!server/.env.example
+web/.env
+web/.env.*
+
+# macOS metadata
+.DS_Store
